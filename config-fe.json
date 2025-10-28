@@ -1,0 +1,565 @@
+{
+    "meta": {
+        "author": "Power Gauge Pro LLC",
+        "designName": "Test Design 1",
+        "designDescription": "This is a description of my design",
+        "designVersion": "1.0",
+        "configSchemaVersion": "0.1",
+        "previewimage": "images/preview_image.png"
+    },
+    "pages": {
+        "page1": {
+            "title": "Page 1",
+            "description": "This is the first page in 000001-pgp.",
+            "items": {
+                "item1": {
+                    "type": "image",
+
+                    "x": -400,
+                    "y": -250,
+                    "z": 0,
+
+                    "width": 800,
+                    "height": 500,
+
+                    "originOffsetX": 0,
+                    "originOffsetY": 0,
+                    "rotationAngle": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+
+                    "fillMode": "fill",
+                    "horizontalAlignment": "center",
+                    "verticalAlignment": "center",
+
+                    "source": "background-image.png"
+                },
+                "item2": {
+                    "type": "text",
+
+                    "x": -50,
+                    "y": -50,
+                    "z": 1,
+
+                    "width": 100,
+                    "height": 100,
+
+                    "originOffsetX": 0,
+                    "originOffsetY": 0,
+                    "rotationAngle": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+
+                    "color": "#ffaa33",
+                    "elide": "right",
+                    "fontFamily": "bluu-next.otf",
+                    "fontPixelSize": 48,
+                    "horizontalAlignment": "center",
+                    "verticalAlignment": "center",
+
+                    "value": {
+                        "type": "data-point",
+                        "value": "speed_dp"
+                    }
+                },
+                "item3": {
+                    "type": "bar",
+
+                    "x": 270,
+                    "y": -200,
+                    "z": 2,
+
+                    "width": 80,
+                    "height": 400,
+
+                    "originOffsetX": 0,
+                    "originOffsetY": 0,
+                    "rotationAngle": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+
+                    "colorBackground": "#88000000",
+                    "colorProgress": "#ddffaa33",
+                    "hideBackground": false,
+                    "hideProgress": false,
+                    "maxValue": 100,
+                    "minValue": 0,
+                    "padding": 10,
+
+                    "value": {
+                        "type": "data-point",
+                        "value": "rpm_dp"
+                    }
+                },
+                "item4": {
+                    "type": "bar",
+
+                    "x": -350,
+                    "y": -200,
+                    "z": 3,
+
+                    "width": 80,
+                    "height": 400,
+
+                    "originOffsetX": 0,
+                    "originOffsetY": 0,
+                    "rotationAngle": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+
+                    "colorBackground": "#88000000",
+                    "colorProgress": "#ddffaa33",
+                    "hideBackground": false,
+                    "hideProgress": false,
+                    "maxValue": 100,
+                    "minValue": 0,
+                    "padding": 20,
+
+                    "value": {
+                        "type": "data-point",
+                        "value": "temp_dp"
+                    }
+                },
+                "item5": {
+                    "type": "arc",
+
+                    "x": -150,
+                    "y": -150,
+                    "z": 4,
+
+                    "width": 300,
+
+                    "originOffsetX": 0,
+                    "originOffsetY": 0,
+                    "rotationAngle": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+
+                    "capStyle": "flat",
+                    "colorBackground": "#88000000",
+                    "colorProgress": "#ddffaa33",
+                    "counterclockwise": true,
+                    "endAngle": 330,
+                    "hideProgress": false,
+                    "hideBackground": false,
+
+                    "maxValue": 100,
+                    "minValue": 0,
+                    "startAngle": 30,
+                    "widthProgress": 60,
+                    "widthBackground": 80,
+
+                    "value": {
+                        "type": "data-point",
+                        "value": "speed_dp"
+                    }
+                }
+            }
+        },
+        "page2": {
+            "title": "Page 2",
+            "description": "This is the second page in 000001-pgp.",
+            "items": {
+                "item6": {
+                    "type": "image",
+
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+
+                    "width": 800,
+                    "height": 500,
+
+                    "originOffsetX": 0,
+                    "originOffsetY": 0,
+                    "rotationAngle": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+
+                    "fillMode": "fill",
+                    "horizontalAlignment": "center",
+                    "verticalAlignment": "center",
+
+                    "source": "background-image.png"
+                },
+                "item7": {
+                    "type": "camera",
+
+                    "x": 100,
+                    "y": 100,
+                    "z": 1,
+
+                    "width": 600,
+                    "height": 300,
+
+                    "originOffsetX": 0,
+                    "originOffsetY": 0,
+                    "rotationAngle": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+
+                    "fillMode": "fill",
+                    "colorBackground": "#44ffaa33"
+                },
+                "item8": {
+                    "type": "text",
+
+                    "x": 350,
+                    "y": 200,
+                    "z": 1,
+
+                    "width": 100,
+                    "height": 100,
+
+                    "originOffsetX": 0,
+                    "originOffsetY": 0,
+                    "rotationAngle": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+
+                    "color": "#ffaa33",
+                    "elide": "right",
+                    "fontFamily": "bluu-next.otf",
+                    "fontPixelSize": 48,
+                    "horizontalAlignment": "center",
+                    "verticalAlignment": "center",
+
+                    "value": {
+                        "type": "data-point",
+                        "value": "rpm_dp"
+                    }
+                },
+                "item9": {
+                    "type": "image",
+
+                    "x": 100,
+                    "y": 100,
+                    "z": 2,
+
+                    "width": 100,
+                    "height": 100,
+
+                    "originOffsetX": 0,
+                    "originOffsetY": 0,
+                    "rotationAngle": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+
+                    "animationType": "frame-speed",
+
+                    "fillMode": "fill",
+                    "horizontalAlignment": "center",
+                    "verticalAlignment": "center",
+                    "source": "animated_image.gif",
+
+                    "value": {
+                        "type": "data-point",
+                        "value": "rpm_dp"
+                    }
+                },
+                "item10": {
+                    "type": "image",
+
+                    "x": 600,
+                    "y": 100,
+                    "z": 2,
+
+                    "width": 100,
+                    "height": 100,
+
+                    "originOffsetX": 0,
+                    "originOffsetY": 0,
+                    "rotationAngle": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+
+                    "animationType": "frame-number",
+
+                    "fillMode": "fill",
+                    "horizontalAlignment": "center",
+                    "verticalAlignment": "center",
+                    "source": "animated_image.gif",
+
+                    "value": {
+                        "type": "data-point",
+                        "value": "speed_dp"
+                    }
+                },
+                "item11": {
+                    "type": "bar",
+
+                    "x": 100,
+                    "y": 200,
+                    "z": 3,
+
+                    "width": 100,
+                    "height": 200,
+
+                    "originOffsetX": 0,
+                    "originOffsetY": 0,
+                    "rotationAngle": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+
+                    "colorBackground": "#88000000",
+                    "colorProgress": "#ddffaa33",
+                    "hideBackground": false,
+                    "hideProgress": false,
+                    "maxValue": 100,
+                    "minValue": 0,
+                    "padding": 10,
+
+                    "value": {
+                        "type": "data-point",
+                        "value": "rpm_dp"
+                    }
+                },
+                "item12": {
+                    "type": "bar",
+
+                    "x": 600,
+                    "y": 200,
+                    "z": 3,
+
+                    "width": 100,
+                    "height": 200,
+
+                    "originOffsetX": 0,
+                    "originOffsetY": 0,
+                    "rotationAngle": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+
+                    "colorBackground": "#88000000",
+                    "colorProgress": "#ddffaa33",
+                    "hideBackground": false,
+                    "hideProgress": false,
+                    "maxValue": 100,
+                    "minValue": 0,
+                    "padding": 10,
+
+                    "value": {
+                        "type": "data-point",
+                        "value": "speed_dp"
+                    }
+                },
+                "item13": {
+                    "type": "image",
+
+                    "x": 350,
+                    "y": 100,
+                    "z": 2,
+
+                    "width": 100,
+                    "height": 100,
+
+                    "originOffsetX": 0,
+                    "originOffsetY": 0,
+                    "rotationAngle": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+
+                    "animationType": "frame-number",
+
+                    "fillMode": "fill",
+                    "horizontalAlignment": "center",
+                    "verticalAlignment": "center",
+                    "source": "animated_image.webp",
+
+                    "value": {
+                        "type": "data-point",
+                        "value": "rpm_dp"
+                    }
+                }
+            }
+        },
+        "page228": {
+            "title": "Page 228",
+            "description": "This is the 228th page in 000001-pgp.",
+            "items": {
+                "item1": {
+                    "type": "image",
+
+                    "x": -400,
+                    "y": -250,
+                    "z": 0,
+
+                    "width": 800,
+                    "height": 500,
+
+                    "originOffsetX": 0,
+                    "originOffsetY": 0,
+                    "rotationAngle": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+
+                    "fillMode": "fill",
+                    "horizontalAlignment": "center",
+                    "verticalAlignment": "center",
+
+                    "source": "background-image.png"
+                },
+                "item2": {
+                    "type": "image-bar",
+
+                    "x": -200,
+                    "y": -200,
+                    "z": 1,
+
+                    "width": 400,
+                    "height": 100,
+
+                    "originOffsetX": 0,
+                    "originOffsetY": 0,
+                    "rotationAngle": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+
+                    "direction": "right-to-left",
+
+                    "colorBackground": "#88000000",
+                    "hideBackground": false,
+                    "hideProgress": false,
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "padding": 10,
+
+                    "NOTE": "• This primitive will work even if the animationType property is removed.
+                             • Valid values for animationType are `none`, `frame-speed` and `frame-number`.",
+                    "animationType": "none",
+
+                    "fillMode": "fill",
+                    "horizontalAlignment": "center",
+                    "verticalAlignment": "center",
+                    "source": "image-bar-right-to-left.png",
+                    "source": "animated_image.gif",
+
+                    "value": {
+                        "type": "data-point",
+                        "value": "speed_dp"
+                    }
+                },
+                "item3": {
+                    "type": "image-arc",
+
+                    "x": -100,
+                    "y": -100,
+                    "z": 2,
+
+                    "width": 200,
+                    "height": 200,
+
+                    "originOffsetX": 0,
+                    "originOffsetY": 0,
+                    "rotationAngle": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+
+                    "maskOriginX": 100,
+                    "maskOriginY": 100,
+                    "maskBorderColor": "#00ff00",
+                    "maskBorderWidth": 2,
+                    "maskBorderVisible": false,
+                    "maskFillVisible": true,
+
+                    "colorBackground": "#88000000",
+                    "hideBackground": true,
+                    "hideProgress": false,
+                    "minValue": 0,
+                    "maxValue": 100,
+
+                    "startAngle": 0,
+                    "endAngle": 360,
+                    "counterclockwise": true,
+
+                    "NOTE": "This primitive will not break even if animationType and animationValue
+                             properties (below) are removed.",
+                    "animationType": "frame-speed",
+                    "animationValue": {
+                        "type": "scaled-data-point",
+                        "value": "speed_dp",
+                        "dpminimum": 0,
+                        "dpmaximum": 100,
+                        "output-minimum": 0.5,
+                        "output-maximum": 2.0
+                    },
+
+                    "fillMode": "fill",
+                    "horizontalAlignment": "center",
+                    "verticalAlignment": "center",
+                    "source": "gradient-radial.png",
+                    "source": "animated_image.gif",
+
+                    "value": {
+                        "type": "data-point",
+                        "value": "speed_dp"
+                    }
+                },
+                "item4": {
+                    "type": "image",
+
+                    "x": -50,
+                    "y": 100,
+                    "z": 3,
+
+                    "width": 100,
+                    "height": 100,
+
+                    "originOffsetX": 0,
+                    "originOffsetY": 0,
+                    "rotationAngle": 0,
+                    "scaleX": 1.0,
+                    "scaleY": 1.0,
+
+                    "animationType": "frame-number",
+                    "animationValue": {
+                        "type": "scaled-data-point",
+                        "value": "speed_dp",
+                        "dpminimum": 0,
+                        "dpmaximum": 100,
+                        "output-minimum": 0,
+                        "output-maximum": 10,
+                        "NOTE": "The test image has 11 frames so output in range 0-10 works for it."
+                    },
+
+                    "fillMode": "fill",
+                    "horizontalAlignment": "center",
+                    "verticalAlignment": "center",
+                    "source": "gradient-radial.png",
+                    "source": "animated_image_numbers.gif",
+
+                    "value": {
+                        "type": "data-point",
+                        "value": "speed_dp"
+                    }
+                }
+            }
+        }
+    },
+    "themes": {
+        "active_theme": "theme1",
+        "theme1": {
+            "colors": {
+                "primary": "#ff0000",
+                "secondary": "#00ff00",
+                "background": "#0000ff"
+            }
+        },
+        "theme2": {
+            "colors": {
+                "primary": "#ffff00",
+                "secondary": "#00ffff",
+                "background": "#ff00ff"
+            }
+        }
+    },
+    "fonts": {
+        "default": "Arial",
+        "included": [
+            {
+                "file": "Freedom-10eM.ttf",
+                "name": "Freedom"
+            }
+        ]
+    }
+}
